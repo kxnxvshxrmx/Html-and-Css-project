@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;600&display=swap');
+.f1-web{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.f1-web-txt{
+    font-family: 'Maven Pro', sans-serif;
+    font-size: smaller;
+    margin-right: 40%;
+}
+
+#head{
+    font-family: 'Montserrat','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.nav{
+    font-weight: 500;
+    font-size: 17px;
+    padding-left: 150px;
+}
+.nav_menu{
+    display: inline-block; 
+}
+.nav-a{
+    text-decoration: dashed;
+    color: white;
+    padding: 15px 20px;
+    margin-right: 15px;
+}
+.nav-a:hover{
+    text-decoration: dashed;
+    padding: 15px 20px;
+    margin-right: 15px;
+    color: white;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.429);
+    z-index: 50;
+}
+
+.bg_img1{
+    
+    background-image: url(/Assets/Images/bg-gif.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: 6px;
+}
+.slogan{
+    margin-left: 15%;
+    
+}
+
+.f1_line{
+    font-family: 'Montserrat';
+    font-weight: 100;
+    margin-top: 80px;
+    font-size: 29px;
+    color: white;
+    
+}
+.f2_line{
+    font-family: 'Montserrat';
+    font-size: 90px;
+    font-weight: 800;
+    
+}
+.f3_line{
+    font-family: 'Montserrat';
+    font-size: 60px;
+    font-weight: 400;
+    color: white
+}
+.f4_line{
+    font-family: 'Libre Baskerville';
+    font-size: 25px;
+    color: white;
+    max-width: 790px;
+    line-height: 38px;
+}
+
+#jointheclub{
+    text-decoration: dashed;
+    color: white;
+    border: #3da3e6 solid 2px;
+    border-radius: 6px;
+    padding: 9px 28px;
+    background-color: #3da3e6;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: small;
+}
+#jointheclub:hover{
+    text-decoration: dashed;
+    color: #3da3e6;
+    border: #3da3e6 solid 2px;
+    border-radius: 6px;
+    padding: 9px 28px;
+    background-color: #3da3e600;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: small;
+}
+.main-head{
+    font-weight: 850;
+}
+
+.c2{
+    border-top: white solid 5px;
+    background-color: rgba(250, 235, 215, 0.49);
+    border-bottom: white solid 5px;
+    height: 500px;background-image: url(/Assets/Images/bg-c2.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 30%;
+    background-position-x: 880px;
+}
+
+.game_report{
+    margin-top: 5.5%;
+    margin-left: 15%;
+}
+.gr-l1{
+    font-family: 'Montserrat';
+    font-size: 138%;
+}
+.gr-l2-f1{
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 310%;
+    color: #3da3e6;
+}
+
+.gr-l2-f2{
+    font-family: 'Montserrat';
+    font-size: 310%;
+    font-weight: 100;
+}
+.gr-l3{
+    font-family: 'Montserrat';
+}
+.gr-l4-p1{
+    font-family: 'Montserrat';
+    display: flex;
+    align-items: center;
+    
+}
+.gr-l4-p2{
+    font-weight: 800;
+    font-size: 400%;
+}
+
+#more-details{
+    text-decoration: dashed;
+    color: white;
+    border: #3da3e6 solid 2px;
+    border-radius: 6px;
+    padding: 9px 28px;
+    background-color: #3da3e6;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 10px;
+}
+#more-details:hover{
+    text-decoration: dashed;
+    color: #3da3e6;
+    border: #3da3e6 solid 2px;
+    border-radius: 6px;
+    padding: 9px 28px;
+    background-color: #3da3e600;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 10px;
+    
+}
+.tc-l1{
+    font-family: 'Montserrat';
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+}
+
+.tc-l2-f1{
+    font-family: 'Montserrat';
+    font-size: 48.1px;
+    font-weight: 100;
+    margin-left: 8;
+}
+
+.tc-l2-f2{
+    
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 48.1px;
+    color: #3da3e6;
+    
+}
+
+.tc-l2{
+    display: flex;
+    justify-content: center;
+}
+
+.table-content{
+    background-image: url(/Assets/Images/tt-bg.jpg);
+}
+
+
+.content-table{
+    font-family: 'Montserrat';
+    border-collapse: collapse;
+    margin-top: 30px;
+    
+}
+.t1{
+    margin: 0px 0px 50px 0px;
+}
+.r1{
+    background-color: #3da3e6;
+    color: white;
+    padding: 13px;
+    border-radius: 10px 0px 0px;
+}
+.r1-c2{
+    background-color: #3da3e6;
+    color: white;
+    padding: 13px;
+    border-radius: 0px 10px 0px 0px;
+}
+
+.r2{
+    padding: 13px;
+    border-bottom: gray solid 1px;
+}
+.r3{
+    padding: 13px;
+    border-bottom: gray solid 1px;
+    background-color: rgba(128, 128, 128, 0.225);
+}
+.r4{
+    padding: 13px;
+    border-bottom: gray solid 1px;
+   
+}
+.r5{
+    padding: 13px;
+    border-bottom: gray solid 1px;
+    background-color: rgba(128, 128, 128, 0.225);
+    
+    
+}
+.r6{
+    padding: 13px;
+    border-bottom: gray solid 1px;
+   
+}
+.r7{
+    padding: 13px;
+    border-bottom: gray solid 1px;
+    background-color: rgba(128, 128, 128, 0.225);
+    
+}
+
+.t2{
+    display: flex;
+    
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.c3{
+    margin-left: 15%;
+    
+
+    
+}
+.s3{
+    background-image: url(/Assets/Images/c4-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;    
+    background-size: cover;
+}
+
+.c3-f1{
+    font-family: 'Montserrat';
+    font-weight: 100;
+    font-size: 32px;
+    color: black;
+}
+.c3-f2-p1{
+    font-family: 'Montserrat';
+    font-size: 400%;
+    font-weight: 100;
+}
+.c3-f2-p2{
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 400%;
+    color: #3da3e6;
+}
+.c3-f3{
+    font-family: 'Libre Baskerville';
+    font-size: 26px;
+    line-height: 40px;
+    max-width: 50%;
+}
+.c3-f4{
+    font-family: 'Montserrat';
+    font-size: 15px;
+    max-width: 47%;
+    
+}
+
+
+.ronaldo{
+    border-radius: 50%;
+}
+.photo-testimonial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c4{
+    padding-top: 6%;
+    margin-left: 15%;
+}
+.s4{
+    
+    background-image: url(/Assets//Images/c6-bg.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 75px;
+}
+.c4-f1-p1{
+    font-family: 'Montserrat';
+    font-size: 320%;
+    font-weight: 300;
+    color: white;   
+}
+
+.c4-f1-p2{
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 320%;
+    color: white;
+}
+.c4-f2{
+    font-family: 'Libre Baskerville';font-size: 18px;
+    line-height: 30px;
+    color: white;
+    max-width: 70%;
+}
+.member{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: white;
+}
+.mem-name{
+    font-family: 'Montserrat';
+    font-weight: 900;
+    color: white;
+}
+.mem-q{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white; 
+}
+.foot-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'montserrat';
+    color: white;
+    background-color: black;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    height: 80px;
+}
+.foot-list{
+    margin-left: 25%;
+}
+
+.foot-menu{
+    display: inline-block;
+}
+.foot{
+    text-decoration: dashed;
+    padding: 15px;
+    color: white;
+}
+.foot:hover{
+    text-decoration: dashed;
+    padding: 15px;
+    color: gray;
+}
+
+
+
+
